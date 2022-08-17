@@ -1,0 +1,14 @@
+{
+  "main": "node server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "chrome-aws-lambda":"^10.1.0",
+    "playwright-core": "npm:playwright-chromium@1.1.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
